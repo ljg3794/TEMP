@@ -1,16 +1,17 @@
-*Special Thanks to "https://github.com/abdulfatir/prototypical-networks-tensorflow"
+*Special Thanks to "https://github.com/abdulfatir/prototypical-networks-tensorflow" and "https://github.com/Gorov/DiverseFewShot_Amazon"
 
 # Diverse Few-Shot Text Classification with Multiple Metrics, Yu et al, 2018
+Download and save raw data as "data_txt"(https://github.com/Gorov/DiverseFewShot_Amazon)
 Configurations in utils.args.py
 
 ## Requirements
 tensorflow = 2.2
 cvxpy = 1.1
 
-/#TODO : put things in an organized fashion(More capsulation needed)
+TODO : put things in an organized fashion(More capsulation needed)
 
 ## How to Run
-1. python data_util.py -> Create : "vocab.pkl", and 'data_id'
+1. python data_util.py -> Create : 'vocab.pkl', and 'data_id'
 2. python build_matrix.py -> Create : 'cluster.json', 'ckpt_log' , 'csv_log'
 3. python FSL.py -> Create : 'ckpt_log_fsl','alpha'
 
