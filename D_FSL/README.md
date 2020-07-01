@@ -4,7 +4,7 @@
 
 "https://github.com/Gorov/DiverseFewShot_Amazon"
 
-# Diverse Few-Shot Text Classification with Multiple Metrics, Yu et al, 2018
+# TEMP, Yu et al, 2018
 Download and save raw data as "data_txt"(https://github.com/Gorov/DiverseFewShot_Amazon)
 
 Configurations in utils.args.py
